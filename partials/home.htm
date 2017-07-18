@@ -1,0 +1,10 @@
+<div ng-include = "'partials/header.htm'"></div>
+<div class="home-container padding-5px">
+	<div class="container-fluid" infinite-scroll="loadNextPage()">
+		<div class="row">
+			<div class="col-xs-4 padding-5px" ng-repeat="tile in tileArray">
+				<movie-tile movie-data="tile"></movie-tile>
+			</div>
+		</div>
+	</div>
+</div>

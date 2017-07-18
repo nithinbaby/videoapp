@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+*{
+  font-family: 'Titillium Web', sans-serif !important;
+}
+
+body{
+  background: #171717;
+  color: white!important;
+  /*padding: 0 5px;*/
+}
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
