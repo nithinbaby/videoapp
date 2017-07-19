@@ -1,4 +1,4 @@
-var app = angular.module("myApp", ["ngRoute", "ui.bootstrap","infinite-scroll"]);
+var app = angular.module("myApp", ["ngRoute","infinite-scroll"]);
 
 app.config(function($routeProvider) {
     $routeProvider
